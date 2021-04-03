@@ -1,0 +1,12 @@
+#include<iostream>
+#include<stdlib.h>
+main()
+{
+	using std::cout;
+	using std::cin;
+	cout<<"Enter two numbers: ";
+	float x,y,p;
+	cin>> x >> y ;
+	p=x*y;
+	cout<< p ;
+}
